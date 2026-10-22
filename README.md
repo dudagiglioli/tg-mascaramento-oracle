@@ -92,9 +92,9 @@ Os arquivos de dados **não são versionados** (volume e licença de terceiros).
   não sanitizado.
 - A tokenização é reversível: caracteriza pseudonimização, não anonimização.
 
+
 ## Segurança do repositório
 
-- Nunca versione o **wallet** do banco nem senhas. O `.gitignore` cobre o wallet, e os scripts
-  trazem apenas senhas de exemplo.
+- Nunca versione o **wallet** do banco nem senhas. O `.gitignore` cobre o wallet, e os scripts trazem apenas senhas de exemplo.
 - Recorte os prints antes de versionar: a barra de endereço mostra o host do banco.
 - CPFs, e-mails e tokens que aparecem nos resultados são sintéticos.
