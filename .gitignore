@@ -1,0 +1,24 @@
+# --- Credenciais do banco: NUNCA versionar ---
+Wallet_*
+*.sso
+*.p12
+*.jks
+tnsnames.ora
+sqlnet.ora
+ojdbc.properties
+.env
+
+# --- Dados de entrada e saídas geradas (volumosos, licença de terceiros) ---
+dados/
+saida/
+*.xlsx
+
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+
+# --- Sistema / editores ---
+.DS_Store
+.idea/
+.vscode/
