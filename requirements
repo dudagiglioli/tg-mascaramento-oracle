@@ -1,0 +1,4 @@
+# Versões usadas na geração e na verificação de reprodutibilidade
+Faker==40.43.0
+pandas>=2.2
+openpyxl>=3.1
