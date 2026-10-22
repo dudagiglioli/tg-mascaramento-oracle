@@ -81,17 +81,14 @@ Os arquivos de dados **não são versionados** (volume e licença de terceiros).
 | Tabela nova não aparece no Data Safe | metadados desatualizados | **Refresh database schemas** |
 | Banco em `Stopped` | o Always Free para após 7 dias sem conexão | **Start** no Console OCI |
 
+
 ## Limitações
 
-- **Dados sintéticos.** Os CEPs são aleatórios e uniformes, o que torna o k otimista. O Faker
-  sorteia os 9 primeiros dígitos do CPF sem repetição (3.628.800 valores possíveis), por isso há
-  288 CPFs repetidos entre 45.000 registros.
-- O k foi medido só sobre o CEP. Não houve teste de reidentificação por cruzamento com fontes externas.
+- **Dados sintéticos.** Os CEPs são aleatórios e uniformes, o que torna o k otimista. O Faker sorteia os 9 primeiros dígitos do CPF sem repetição (3.628.800 valores possíveis), por isso há 288 CPFs repetidos entre 45.000 registros.
+- O k foi medido apenas sobre o CEP. Não houve teste de reidentificação por cruzamento com fontes externas.
 - O comportamento foi observado em uma versão do banco (19c) e na camada gratuita.
-- O texto livre foi apenas ocultado na exibição (redação total) ou suprimido da tabela generalizada,
-  não sanitizado.
+- O texto livre foi apenas ocultado na exibição (redação total) ou suprimido da tabela generalizada, não sanitizado.
 - A tokenização é reversível: caracteriza pseudonimização, não anonimização.
-
 
 ## Segurança do repositório
 
