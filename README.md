@@ -98,7 +98,3 @@ Os arquivos de dados **não são versionados** (volume e licença de terceiros).
   trazem apenas senhas de exemplo.
 - Recorte os prints antes de versionar: a barra de endereço mostra o host do banco.
 - CPFs, e-mails e tokens que aparecem nos resultados são sintéticos.
-
-## Licença
-
-**[DEFINIR]** Por exemplo, MIT para os scripts. Os dados têm licença própria.
