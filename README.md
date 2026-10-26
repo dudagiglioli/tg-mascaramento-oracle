@@ -109,14 +109,11 @@ O conjunto de dados original contém informações sintéticas, incluindo SSN e 
 
 ## Segurança do repositório
 
-- Nunca versione o wallet do banco, senhas reais, chaves ou arquivos de credenciais.
-- Verifique se o `.gitignore` exclui wallets, arquivos de ambiente e outros segredos.
-- Revise os scripts antes de publicá-los para garantir que contenham apenas valores de exemplo, sem credenciais reais.
-- Recorte os prints antes de versionar: a barra de endereço pode revelar o host do banco.
-- CPFs, e-mails e tokens apresentados nos resultados são sintéticos.
+Este repositório não contém wallet, senhas, chaves ou credenciais. Todos os CPFs, e-mails, tokens e demais valores exibidos nos resultados são sintéticos.
 
 ## Licença
 
-A licença do conjunto de dados original é CC BY 4.0, conforme indicado na página do Mendeley Data. Essa licença não define automaticamente a licença dos scripts e demais materiais desenvolvidos neste trabalho.
-
-A licença de distribuição dos scripts deste repositório deve ser definida pelas autoras antes de uma eventual redistribuição por terceiros.
+- **Scripts:** licença MIT (ver arquivo [LICENSE](LICENSE)).
+- **Documentação e figuras:** CC BY 4.0.
+- **Conjunto de dados original:** mantém a licença CC BY 4.0 de seus autores
+  (Mishra et al., 2024) e não está incluído neste repositório.
