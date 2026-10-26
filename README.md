@@ -113,7 +113,6 @@ Este repositório não contém wallet, senhas, chaves ou credenciais. Todos os C
 
 ## Licença
 
-- **Scripts:** licença MIT (ver arquivo [LICENSE](LICENSE)).
-- **Documentação e figuras:** CC BY 4.0.
+- **Scripts, documentação e figuras:** licença MIT (ver arquivo [LICENSE](LICENSE)).
 - **Conjunto de dados original:** mantém a licença CC BY 4.0 de seus autores
   (Mishra et al., 2024) e não está incluído neste repositório.
